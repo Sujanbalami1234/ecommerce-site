@@ -1,2 +1,159 @@
-# ecommerce-site
-Galary
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memories Of My Life </title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff0f5;
+    }
+    header {
+      background: #ffc0cb;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      background: #ffb6c1;
+      padding: 0.5em;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      max-width: 250px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto;
+    }
+    .product h3 {
+      margin: 10px 0;
+    }
+    .product p {
+      color: #555;
+    }
+    .product button {
+      background: #ff69b4;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .product button:hover {
+      background: #ff1493;
+    }
+    footer {
+      background: #ffc0cb;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Some of My Own World </h1>
+    <p>I'am the boss of my own Welcome to my galary </p>
+  </header>
+
+  <nav>
+    <a href="#">Home<a>
+    <a href="#">Shop</a>
+    <a href="#">Contact</a>
+    <a href="#">Cart</a>
+  </nav>
+
+  <div class="products">
+    <div class="product">
+      <img src="Monu 1.jfif" alt="My own galary 1">
+      <h3>Pyari Manche</h3>
+      <p>I Love to Take a mirror Photos</p>
+      <button>Click to Open</button>
+    </div>
+    <div class="product">
+      <img src="Monu 2.jfif" alt="Happy me">
+      <h3>Happy me</h3>
+      <p>This is me in a sari</p>
+      <button>Click to Open</button>
+    </div>
+    <div class="product">
+      <img src="Monu 3.jfif" alt="Haluka Lajako">
+      <h3>This how i lajai</h3>
+      <p>Lajalu KT Moh</p>
+      <button>Click to Open</button>
+    </div>
+    <div class="product">
+      <img src="Monu 4.jfif" alt="White is love">
+      <h3>White IS soft</h3>
+      <p>White is love</p>
+      <button>Click to Open</button>
+    </div>
+    <div class="product">
+      <img src="Monu 5.jfif" alt="Chill KT">
+      <h3>Chill KT </h3>
+      <p>$Chill KT MOH</p>
+      <button>Click to Open</button>
+    </div>
+    <div class="product">
+      <img src="Monu 6.jfif" alt="Nature">
+      <h3>I Love Nature</h3>
+      <p>WAterfall </p>
+      <button>Click to Open</button>
+    </div>
+    <div class="product">
+      <img src="Monu 7.jfif" alt="Peace ">
+      <h3>Peace</h3>
+      <p>Somewhere around pokhara</p>
+      <button>Click to Open</button>
+    </div>
+    <div class="product">
+      <img src="Monu 8.jfif" alt="Sun Kiss8">
+      <h3>Sun Kiss</h3>
+      <p>Cool Memories</p>
+      <button>Click to Open</button>
+    </div>
+    <div class="product">
+      <img src="Monu 9.jfif" alt="Chill Pill">
+      <h3>Drink garna kaslea sakxa ra malai</h3>
+      <p>Chill Pill KT MOH</p>
+      <button>Click to Open</button>
+    </div>
+    <div class="product">
+      <img src="Monu 10.jfif" alt="I Love my culture">
+      <h3>I love My Culture</h3>
+      <p>Sanskari kt Moh</p>
+      <button>Click to Open</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ShopSimple. All rights reserved.</p>
+  </footer>
+</body>
+</html>
